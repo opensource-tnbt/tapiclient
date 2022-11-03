@@ -1,0 +1,157 @@
+{
+    "all": {
+        "children": {
+            "switches": {
+                "children": {
+		    "arista": {
+			"hosts": {
+			    "veos01": {
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "veos-01.example.net",
+				"ansible_network_os": "arista.eos.eos",
+				"ansible_password": "my_eos_password",
+				"ansible_user": "my_eos_user",
+				"ftp_url": "ftp://ftp_test:ftp_test@192.168.7.100/",
+				"md5": "bb58c1507423e757245076e02cf95d09",
+				"mem_required": 390,
+				"upgrade_file": "vEOS-lab-4.21.3F.swi",
+				"upgrade_version": "4.21.3F"
+			    },
+			    "veos02": {
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "veos-02.example.net",
+				"ansible_network_os": "arista.eos.eos",
+				"ansible_password": "my_eos_password",
+				"ansible_user": "my_eos_user",
+				"ftp_url": "ftp://ftp_test:ftp_test@192.168.7.100/",
+				"md5": "bb58c1507423e757245076e02cf95d09",
+				"mem_required": 390,
+				"upgrade_file": "vEOS-lab-4.21.3F.swi",
+				"upgrade_version": "4.21.3F"
+			    },
+			    "veos03": {
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "veos-03.example.net",
+				"ansible_network_os": "arista.eos.eos",
+				"ansible_password": "my_eos_password",
+				"ansible_user": "my_eos_user",
+				"ftp_url": "ftp://ftp_test:ftp_test@192.168.7.100/",
+				"md5": "bb58c1507423e757245076e02cf95d09",
+				"mem_required": 390,
+				"upgrade_file": "vEOS-lab-4.21.3F.swi",
+				"upgrade_version": "4.21.3F"
+			    },
+			    "veos04": {
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "veos-04.example.net",
+				"ansible_network_os": "arista.eos.eos",
+				"ansible_password": "my_eos_password",
+				"ansible_user": "my_eos_user",
+				"ftp_url": "ftp://ftp_test:ftp_test@192.168.7.100/",
+				"md5": "bb58c1507423e757245076e02cf95d09",
+				"mem_required": 390,
+				"upgrade_file": "vEOS-lab-4.21.3F.swi",
+				"upgrade_version": "4.21.3F"
+			    }
+			}
+		    },
+		    "aruba": {
+			"hosts": {
+			    "arubaos01": {
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "arubaos-01.example.net",
+				"ansible_network_os": "arubaoss",
+				"ansible_password": "my_arubaos_password",
+				"ansible_user": "my_arubaos_user"
+			    },
+			    "arubaos02": {
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "arubaos-02.example.net",
+				"ansible_network_os": "arubaoss",
+				"ansible_password": "my_arubaos_password",
+				"ansible_user": "my_arubaos_user"
+			    },
+			    "arubaos03": {
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "arubaos-03.example.net",
+				"ansible_network_os": "arubaoss",
+				"ansible_password": "my_arubaos_password",
+				"ansible_user": "my_arubaos_user"
+			    }
+			}
+		    },
+		    "cisco": {
+			"hosts": {
+			    "ios01": {
+				"CONNECTION": null,
+				"MD5": null,
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "ios-01.example.net",
+				"ansible_network_os": "cisco.ios.ios",
+				"ansible_password": "my_ios_password",
+				"ansible_user": "my_ios_user"
+			    },
+			    "ios02": {
+				"CONNECTION": null,
+				"MD5": null,
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "ios-02.example.net",
+				"ansible_network_os": "cisco.ios.ios",
+				"ansible_password": "my_ios_password",
+				"ansible_user": "my_ios_user"
+			    },
+			    "ios03": {
+				"CONNECTION": null,
+				"MD5": null,
+				"ansible_become": "yes",
+				"ansible_become_method": "enable",
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "ios-03.example.net",
+				"ansible_network_os": "cisco.ios.ios",
+				"ansible_password": "my_ios_password",
+				"ansible_user": "my_ios_user"
+			    }
+			}
+		    },
+		    "juniper": {
+			"hosts": {
+			    "junos01": {
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "junos-01.example.net",
+				"ansible_network_os": "junipernetworks.junos.junos",
+				"ansible_password": "my_junos_password",
+				"ansible_user": "my_junos_user"
+			    },
+			    "junos02": {
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "junos-02.example.net",
+				"ansible_network_os": "junipernetworks.junos.junos",
+				"ansible_password": "my_junos_password",
+				"ansible_user": "my_junos_user"
+			    },
+			    "junos03": {
+				"ansible_connection": "ansible.netcommon.network_cli",
+				"ansible_host": "junos-03.example.net",
+				"ansible_network_os": "junipernetworks.junos.junos",
+				"ansible_password": "my_junos_password",
+				"ansible_user": "my_junos_user"
+			    }
+			}
+		    }
+		}
+	    }
+	}
+    }
+}

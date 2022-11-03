@@ -1,0 +1,10 @@
+# Use Ansible !vault for password
+# https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html
+[all:vars]
+# these defaults can be overridden for any group in the [group:vars] section
+#ansible_connection=ansible.netcommon.network_cli
+ansible_user=sridhar
+ansible_password=sridhar123
+
+[tapi]
+192.168.0.109

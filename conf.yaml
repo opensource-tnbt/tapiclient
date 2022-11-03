@@ -1,0 +1,16 @@
+---
+- pods:
+  - names:
+    - sit-lab
+    - marvell-lab
+
+- projects:
+  - names:
+    - dentos
+    - replicaone
+
+- scenarios:
+  - names:
+    - p2p
+    - poe
+    

@@ -1,0 +1,43 @@
+---
+# general
+prefix: /data
+tmp_dir: /tmp
+project: xtesting
+ipaddress: "{{ ansible_default_ipv4.address }}"
+db_project: "{{ project }}"
+external_ipaddress: "{{ ipaddress }}"
+mongo_docker_image: mongo
+mongo_docker_tag: 4.4
+testapi_docker_image: opnfv/testapi
+testapi_docker_tag: kali
+#docker
+docker_pull: false
+docker_recreate: false
+docker_restart_policy: always
+# testapi
+testapi_deploy: true
+testapi_configure: '{{ testapi_deploy }}'
+testapi_port: 8000
+testapi_url: http://{{ ipaddress }}:{{ testapi_port }}/api/v1
+testapi_ext_url: http://{{ external_ipaddress }}:{{ testapi_port }}/api/v1
+testapi_base_url: http://{{ external_ipaddress }}:{{ testapi_port }}
+testapi_wait: 30
+# db
+push_to_db: true
+mongo_deploy: true
+mongo_port: 27017
+mongo_url: mongodb://{{ ipaddress }}:{{ mongo_port }}
+mongo_wait: 1
+node_name: '{{ project }}'
+suites:
+  - container: xtesting-xxx
+    tests:
+      - first
+      - second
+      - third
+      - fourth
+      - fifth
+      - sixth
+  - container: xtesting-yyy
+    tests:
+      - seventh

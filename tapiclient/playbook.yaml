@@ -1,0 +1,4 @@
+- name: Setup Testapi
+  hosts: tapi
+  roles:
+  - tapisetup
