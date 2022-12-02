@@ -8,8 +8,11 @@ db_project: "{{ project }}"
 external_ipaddress: "{{ ipaddress }}"
 mongo_docker_image: mongo
 mongo_docker_tag: 4.4
-testapi_docker_image: opnfv/testapi
-testapi_docker_tag: kali
+#testapi_docker_image: opnfv/testapi
+#testapi_docker_tag: kali
+testapi_docker_image: testapi
+testapi_docker_tag: latest
+
 #docker
 docker_pull: false
 docker_recreate: false

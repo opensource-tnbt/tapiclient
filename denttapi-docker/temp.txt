@@ -1,0 +1,1000 @@
+ 1119  ls
+ 1120  cd local/
+ 1121  ls
+ 1122  cd lib/
+ 1123  ls
+ 1124  cd ../
+ 1125  cd bin
+ 1126  cd local/
+ 1127  ls
+ 1128  cd bin/
+ 1129  ls
+ 1130  cd ../
+ 1131  ls
+ 1132  cd ../
+ 1133  ls
+ 1134  cd ../
+ 1135  cd ovs/
+ 1136  ls
+ 1137  cd ovs/
+ 1138  ls
+ 1139  cd ../
+ 1140  gvim Makefile
+ 1141  make
+ 1142  gvim ovs/config.log 
+ 1143  clear
+ 1144  ls
+ 1145  gvim Makefile
+ 1146  make
+ 1147  clear
+ 1148  ls
+ 1149  cd ovs/
+ 1150  cd ../
+ 1151  cd dpdk/
+ 1152  ls
+ 1153  cd dpdk/
+ 1154  ls
+ 1155  cd ../
+ 1156  cd ovs/
+ 1157  gvim Makefile
+ 1158  pkg-config --help
+ 1159  cd ../
+ 1160  ls
+ 1161  cd dpdk/
+ 1162  ls
+ 1163  gvim Makefile
+ 1164  ls
+ 1165  cd dpdk/
+ 1166  ls
+ 1167  cd build
+ 1168  ls
+ 1169  cd lib/
+ 1170  ls
+ 1171  cd ../
+ 1172  ls
+ 1173  cd meson-private/
+ 1174  ls
+ 1175  cd ../
+ 1176  ls
+ 1177  cd lib/
+ 1178  ls
+ 1179  clear
+ 1180  ls
+ 1181  cd ../
+ 1182  ls
+ 1183  cd usr/local/
+ 1184  ls
+ 1185  cd lib/
+ 1186  ls
+ 1187  cd x86_64-linux-gnu/
+ 1188  ls
+ 1189  cd ../
+ 1190  clear
+ 1191  ls
+ 1192  cd ../
+ 1193  ls
+ 1194  cd ../
+ 1195  ls
+ 1196  cd ../
+ 1197  ls
+ 1198  gvim Makefile
+ 1199  sudo reboot
+ 1200  cd Downloads/
+ 1201  ls
+ 1202  mv codi-vore-would-be-my-real-life-roommate.mp4 codi.mp4
+ 1203  ls
+ 1204  mv mv i-have-to-stay-focus-on-my-new-job.mp4 ashlyn.mp4
+ 1205  mv i-have-to-stay-focus-on-my-new-job.mp4 ashlyn.mp4
+ 1206  ;s
+ 1207  ls
+ 1208  mv licking-kitten-violet-myers.mp4 myers.mp4
+ 1209  clear
+ 1210  ls
+ 1211  cd richelm/
+ 1212  ls
+ 1213  sed -n -e '/ARG\ KUBECTL_VERSION/ s/.*\= *//p'
+ 1214  sed -n -e '/ARG\ KUBECTL_VERSION/ s/.*\= *//p' Dockerfile
+ 1215  awk -F '=' '/ARG\ KUBECTL_VERSION/{print $NF}' Dockerfile 
+ 1216  gvim build.sh 
+ 1217  ./build.sh static
+ 1218  ls
+ 1219  git status
+ 1220  git add .
+ 1221  git commit -m "Add static option"
+ 1222  git push -u origin main
+ 1223  exit
+ 1224  echo $(pwd)
+ 1225  echo $(shell pwd)
+ 1226  clear
+ 1227  ls
+ 1228  cd an
+ 1229  cd anuket/
+ 1230  ls
+ 1231  cd testubuntu22/
+ 1232  ls
+ 1233  cd src
+ 1234  ls
+ 1235  cd ovs/
+ 1236  ls
+ 1237  gvim Makefile
+ 1238  cd ../
+ 1239  cd dpdk/
+ 1240  ls
+ 1241  gvim Makefile
+ 1242  cd dpdk/
+ 1243  ls
+ 1244  cd build
+ 1245  ls
+ 1246  cd lib/
+ 1247  ls
+ 1248  cd ../
+ 1249  ls
+ 1250  cd ../
+ 1251  ls
+ 1252  rm -rf dpdk
+ 1253  clear
+ 1254  ls
+ 1255  make
+ 1256  ls
+ 1257  cd build/
+ 1258  ls
+ 1259  cd lib/
+ 1260  ls
+ 1261  cd x86_64-linux-gnu/
+ 1262  ls
+ 1263  cd ../
+ 1264  ls
+ 1265  rm -rf dpdk
+ 1266  rm -rf buid
+ 1267  ls
+ 1268  gvim Makefile.original 
+ 1269  cd ../
+ 1270  cd dpdk && echo $(pwd)
+ 1271  echo $(bash pwd)
+ 1272  pwd
+ 1273  bash pwd
+ 1274  make
+ 1275  rm -rf dpdk
+ 1276  ls
+ 1277  rm -rf build/
+ 1278  make
+ 1279  cd dpdk/
+ 1280  ls
+ 1281  cd build
+ 1282  cd lib/
+ 1283  ls
+ 1284  cd x86_64-linux-gnu/
+ 1285  ls
+ 1286  clear
+ 1287  ls
+ 1288  cd ../
+ 1289  ls
+ 1290  cd ../
+ 1291  ls
+ 1292  cd ../
+ 1293  ls
+ 1294  cd ../
+ 1295  cd ovs/
+ 1296  ls
+ 1297  rm -rf ovs
+ 1298  ls
+ 1299  gvim Makefile
+ 1300  gvim Makefile.legacy 
+ 1301  make
+ 1302  clear
+ 1303  ls
+ 1304  cd ../
+ 1305  cd ./.
+ 1306  cd ../
+ 1307  ls
+ 1308  git diff
+ 1309  cd src/dpdk/
+ 1310  ls
+ 1311  diff Makefile Makefile.dpdk_meson 
+ 1312  gvim Makefile.dpdk_meson 
+ 1313  cd ../
+ 1314  cd ovs/
+ 1315  diff Makefile Makefile.ovs_dpdk_meson 
+ 1316  cd ../
+ 1317  cd systems/
+ 1318  ls
+ 1319  gvim README.md 
+ 1320  clear
+ 1321  ls
+ 1322  cd ../
+ 1323  cd src
+ 1324  ls
+ 1325  diff package-list.mk package-list.mk.dpdk_meson 
+ 1326  cd
+ 1327  cd Downloads/
+ 1328  ls
+ 1329  sudo apt-get install qvfs-backends
+ 1330  sudo apt-get install gvfs-backends
+ 1331  sudo reboot
+ 1332  cd Downloads/
+ 1333  pwd
+ 1334  exit
+ 1335  sudo lsusb
+ 1336  sudo dmesg
+ 1337  sudo apt install mtp-tools
+ 1338  mtp-detect 
+ 1339  sudo dmesg
+ 1340  mtp-detect 
+ 1341  dmesg
+ 1342  sudo dmesg
+ 1343  lsusb
+ 1344  ifconfig
+ 1345  cd anuket/testubuntu22/
+ 1346  ls
+ 1347  clear
+ 1348  ls
+ 1349  cd systems/
+ 1350  ls
+ 1351  gvim README.md 
+ 1352  cd ../
+ 1353  cd src
+ 1354  cd l2fwd/
+ 1355  gvim l2fwd.c 
+ 1356  cd ../
+ 1357  cd qemu/
+ 1358  ls
+ 1359  gvim Makefile 
+ 1360  clear
+ 1361  ls
+ 1362  gvim Makefile 
+ 1363  cd ..
+ 1364  ls
+ 1365  gvim package-list.mk
+ 1366  cd qemu/
+ 1367  ls
+ 1368  make
+ 1369  uname -r
+ 1370  cd ../
+ 1371  cd src/dpdk/
+ 1372  ls
+ 1373  gvim Makefile
+ 1374  cd ../
+ 1375  cd ovs/
+ 1376  ls
+ 1377  gvim Makefile
+ 1378  cd ../
+ 1379  cd src
+ 1380  cd dpdk/
+ 1381  ls
+ 1382  cd dpdk/build
+ 1383  ls
+ 1384  cd lib/
+ 1385  ls
+ 1386  cd x86_64-linux-gnu/
+ 1387  ls
+ 1388  uname -r
+ 1389  uname -a
+ 1390  cd ../
+ 1391  ls
+ 1392  c d..
+ 1393  cd ..
+ 1394  ls
+ 1395  cd ../
+ 1396  cd ..
+ 1397  make &> output.txt
+ 1398  gvim output.txt 
+ 1399  cd
+ 1400  cd anuket/
+ 1401  ls
+ 1402  git clone https://gerrit.opnfv.org/gerrit/vineperf vpdpdk
+ 1403  cd vpdpdk/
+ 1404  ls
+ 1405  cd src/
+ 1406  ls
+ 1407  cp ../../../testubuntu22/src/dpdk/Makefile .
+ 1408  ls
+ 1409  cd dpdk/
+ 1410  cd ../
+ 1411  cd ./.
+ 1412  l
+ 1413  cd ../
+ 1414  c d../
+ 1415  cd ..
+ 1416  ls
+ 1417  rm -rf vpdpdk/
+ 1418  git clone https://gerrit.opnfv.org/gerrit/vineperf vpdpdk
+ 1419  cd vpdpdk/
+ 1420  ls
+ 1421  cd src/
+ 1422  ls
+ 1423  cd dpdk/
+ 1424  ls
+ 1425  cp ../../../testubuntu22/src/dpdk/Makefile .
+ 1426  ls
+ 1427  cd ../
+ 1428  ls
+ 1429  cp ../../testubuntu22/src/package-list.mk .
+ 1430  cd dpdk/
+ 1431  make
+ 1432  cd dpdk/
+ 1433  ls
+ 1434  cd build
+ 1435  ls
+ 1436  cd lib/
+ 1437  cd x86_64-linux-gnu/
+ 1438  ls
+ 1439  cd
+ 1440  gvim temp.txt
+ 1441  exit
+ 1442  cd bin
+ 1443  cd anaconda3/
+ 1444  ls
+ 1445  cd bin/
+ 1446  ./anaconda-navigator 
+ 1447  grep -r 'Signed-off by' *
+ 1448  clear
+ 1449  ls
+ 1450  exit
+ 1451  vlrst
+ 1452  ld
+ 1453  clrst
+ 1454  clear
+ 1455  ls
+ 1456  cd anaconda3/
+ 1457  cd bin/
+ 1458  ls
+ 1459  ./anaconda-navigator 
+ 1460  cd
+ 1461  cd anuket/
+ 1462  ls
+ 1463  rm -rf vpnewptl/
+ 1464  clear
+ 1465  ls
+ 1466  rm -rf vpdpdk/
+ 1467  clear
+ 1468  ls
+ 1469  git clone https://gerrit.opnfv.org/gerrit/vineperf dpdkmeson
+ 1470  git clone https://gerrit.opnfv.org/gerrit/vineperf newoses
+ 1471  cd dpdkmeson/
+ 1472  ls
+ 1473  cd src/
+ 1474  ls
+ 1475  diff package-list.mk package-list.mk.dpdk_meson 
+ 1476  diff package-list.mk ../../testubuntu22/src/package-list.mk
+ 1477  gvim package-list.mk
+ 1478  ls
+ 1479  rm package-list.mk.dpdk_meson 
+ 1480  clear
+ 1481  ls
+ 1482  cd dpdk/
+ 1483  ls
+ 1484  mv Makefile Makefile.legacy
+ 1485  rm Makefile.dpdk_meson 
+ 1486  cp ../../../testubuntu22/src/dpdk/Makefile .
+ 1487  ls
+ 1488  gvim Makefile
+ 1489  clear
+ 1490  ls
+ 1491  clear
+ 1492  ls
+ 1493  cd ../
+ 1494  cd ovs/
+ 1495  ls
+ 1496  diff Makefile Makefile.ovs_dpdk_meson 
+ 1497  diff Makefile.ovs_dpdk_meson  ../../../testubuntu22/src/ovs/Makefile
+ 1498  clear
+ 1499  ls
+ 1500  mv Makefile Makefile.legacy
+ 1501  rm Makefile.ovs_dpdk_meson 
+ 1502  ls
+ 1503  cp -r ../../../testubuntu22/src/ovs/Makefile .
+ 1504  ls
+ 1505  clear
+ 1506  ls
+ 1507  cd ../
+ 1508  clear
+ 1509  ls
+ 1510  cd ../
+ 1511  ls
+ 1512  clear
+ 1513  ls
+ 1514  git status
+ 1515  cd systems/
+ 1516  ls
+ 1517  gvim README.md 
+ 1518  cd ../
+ 1519  cd src/
+ 1520  ls
+ 1521  cd ovs/
+ 1522  ls
+ 1523  gvim Makefile
+ 1524  cd ../
+ 1525  ls
+ 1526  clear
+ 1527  ls
+ 1528  cd ../
+ 1529  ls
+ 1530  git status
+ 1531  git add .
+ 1532  git commit
+ 1533  git review
+ 1534  cd ../
+ 1535  ls
+ 1536  cd newversions/
+ 1537  ls
+ 1538  clear
+ 1539  ls
+ 1540  cd systems/
+ 1541  ls
+ 1542  cd fedora/
+ 1543  ls
+ 1544  cp -rf 33 36
+ 1545  clear
+ 1546  ls
+ 1547  cd 36/
+ 1548  ls
+ 1549  chmod 755 build_base_machine.sh 
+ 1550  chmod 755 prepare_python_env.sh 
+ 1551  ls
+ 1552  gvim prepare_python_env.sh 
+ 1553  cd ../
+ 1554  cd ..
+ 1555  ls
+ 1556  cd ../
+ 1557  ls
+ 1558  gvim requirements.txt 
+ 1559  cd systems/
+ 1560  grep -r "meson" 8 
+ 1561  grep -r "meson" *
+ 1562  grep -r "ninja" * 
+ 1563  cd ../
+ 1564  ls
+ 1565  cd systems/ubuntu/
+ 1566  ls
+ 1567  cp -r ../../../testubuntu22/systems/ubuntu/22.04/ .
+ 1568  ls
+ 1569  cd 22.04/
+ 1570  ls
+ 1571  cd ../
+ 1572  ls
+ 1573  cd ../
+ 1574  git status
+ 1575  git checkout -v newOsVersions
+ 1576  git checkout -b newOsVersions
+ 1577  clear
+ 1578  ls
+ 1579  git status
+ 1580  clear
+ 1581  ls
+ 1582  clear
+ 1583  ls
+ 1584  cd systems/
+ 1585  ls
+ 1586  cd debian/
+ 1587  ls
+ 1588  cd ../
+ 1589  ls
+ 1590  cd debian/
+ 1591  ls
+ 1592  gvim build_base_machine.sh 
+ 1593  clear
+ 1594  ls
+ 1595  cd ../
+ 1596  ls
+ 1597  clear
+ 1598  ls
+ 1599  cd ../
+ 1600  ls
+ 1601  git add .
+ 1602  git commit
+ 1603  git review
+ 1604  shutdown -h now
+ 1605  gvim temp
+ 1606  sudo reboot now
+ 1607  clear
+ 1608  ls
+ 1609  rm -rf cilium-perf-networking/
+ 1610  clear
+ 1611  ls
+ 1612  rm -rf container-experience-kits/
+ 1613  clear
+ 1614  ls
+ 1615  cd eBPF/
+ 1616  ls
+ 1617  cd bsc/
+ 1618  ls
+ 1619  git status
+ 1620  cd ../
+ 1621  ls
+ 1622  rm -rf eBPF/
+ 1623  clear
+ 1624  ls
+ 1625  cd ksc-oransc/
+ 1626  ls
+ 1627  gvim inventory.py 
+ 1628  cd ..
+ 1629  rm -rf ksc-oransc/
+ 1630  clear
+ 1631  ls
+ 1632  cd inventorybuilder/
+ 1633  ls
+ 1634  cd ..
+ 1635  rm -rf inventorybuilder/
+ 1636  clear
+ 1637  ls
+ 1638  cd k8s/
+ 1639  ls
+ 1640  gvim build.sh 
+ 1641  git status
+ 1642  cd ../
+ 1643  ls
+ 1644  cd kube
+ 1645  cd kubeadm/
+ 1646  ls
+ 1647  git status
+ 1648  cd ../
+ 1649  ls
+ 1650  mkdir software-development
+ 1651  mv kubeadm/ k8s/ kubespray/ ./software-development/
+ 1652  ls
+ 1653  cd kuberef/
+ 1654  ls
+ 1655  cd cd ../
+ 1656  ls
+ 1657  cd ../
+ 1658  ls
+ 1659  rm -rf kuberef/
+ 1660  clear
+ 1661  ls
+ 1662  cd mydev/
+ 1663  ls
+ 1664  mv * ../software-development/
+ 1665  cd ..
+ 1666  ls
+ 1667  rm -rf software-development/
+ 1668  clear
+ 1669  ls
+ 1670  cd myks/
+ 1671  ls
+ 1672  git status
+ 1673  git diff Dockerfile
+ 1674  ls
+ 1675  gvim README.md 
+ 1676  cd ../
+ 1677  ls
+ 1678  rm -rf myks/
+ 1679  ls
+ 1680  cd neural-networks-and-deep-learning/
+ 1681  ls
+ 1682  du -m
+ 1683  git status
+ 1684  git remote
+ 1685  git remote show
+ 1686  git remote origin show
+ 1687  git remote 0v
+ 1688  git remote -v
+ 1689  clear
+ 1690  ls
+ 1691  cd ..
+ 1692  ls
+ 1693  rm -rf neural-networks-and-deep-learning/
+ 1694  clear
+ 1695  ls
+ 1696  cd newcontainerone/
+ 1697  ls
+ 1698  cd ..
+ 1699  ls
+ 1700  rm -rf newcontainerone/
+ 1701  clear
+ 1702  ls
+ 1703  clear
+ 1704  ls
+ 1705  cd docs/
+ 1706  ls
+ 1707  cd ../
+ 1708  rm -rf docs/
+ 1709  ls
+ 1710  cd JNotebooks/
+ 1711  ls
+ 1712  ls -la
+ 1713  cd
+ 1714  cd DataAnalysis/
+ 1715  ls
+ 1716  clear
+ 1717  ls
+ 1718  cd ../
+ 1719  ls
+ 1720  cd JNotebooks/
+ 1721  ls
+ 1722  ls -la
+ 1723  cd ../
+ 1724  ls
+ 1725  cd ovpns/
+ 1726  ls
+ 1727  cd ../
+ 1728  ls
+ 1729  cd
+ 1730  ls
+ 1731  cd Downloads/
+ 1732  ls
+ 1733  cd
+ 1734  ls
+ 1735  ls -la
+ 1736  cd
+ 1737  ls
+ 1738  find . -name software*
+ 1739  c;ear
+ 1740  clear
+ 1741  ls
+ 1742  cd mydev/
+ 1743  ls
+ 1744  cd ../
+ 1745  ls
+ 1746  rm -rf mydev/
+ 1747  clear
+ 1748  ls
+ 1749  cd vineperf/
+ 1750  ls
+ 1751  c d../
+ 1752  ls
+ 1753  cd
+ 1754  ls
+ 1755  rm -rf vineperf/
+ 1756  clear
+ 1757  ls
+ 1758  history &> cmds.txt
+ 1759  gvim cmds.txt 
+ 1760  clear
+ 1761  ls
+ 1762  gvim cmds.txt 
+ 1763  rm cmds.txt 
+ 1764  clear
+ 1765  ls
+ 1766  rm Fedora-Server-dvd-x86_64-36-1.5.iso 
+ 1767  clear
+ 1768  ls
+ 1769  mkdir backup
+ 1770  cp ./DataAnalysis/*.ipynb ./backup/
+ 1771  clear
+ 1772  ls
+ 1773  cd richelm/
+ 1774  ls
+ 1775  cd ../
+ 1776  ls
+ 1777  rm -rf richelm/
+ 1778  clear
+ 1779  ls
+ 1780  cd testing/
+ 1781  ls
+ 1782  cd work-in-progress/
+ 1783  ls
+ 1784  cd ../
+ 1785  c d../
+ 1786  ls
+ 1787  cd ..
+ 1788  sl
+ 1789  ls
+ 1790  rm -rf testing/
+ 1791  clear
+ 1792  ls
+ 1793  cd training/
+ 1794  ls
+ 1795  c d../
+ 1796  clear
+ 1797  ls
+ 1798  cd ..
+ 1799  ls
+ 1800  mv training/ ./backup/
+ 1801  ls
+ 1802  mv ovpns/ backup/
+ 1803  clear
+ 1804  ls
+ 1805  gvim temp.sh 
+ 1806  rm temp.sh 
+ 1807  clear
+ 1808  ls
+ 1809  gvim post-install.sh 
+ 1810  rm post-install.sh 
+ 1811  gvim install.sh 
+ 1812  rm install.sh 
+ 1813  clear
+ 1814  ls
+ 1815  mv JNotebooks/ ./backup/
+ 1816  clear
+ 1817  ls
+ 1818  cd Screenshots/
+ 1819  ls
+ 1820  cd ../
+ 1821  ls
+ 1822  rm -rf Screenshots/
+ 1823  clear
+ 1824  ls
+ 1825  cd commands/
+ 1826  ls
+ 1827  cd ../
+ 1828  mv commands/ backup/
+ 1829  ls
+ 1830  cd backup/
+ 1831  ls
+ 1832  cd ../
+ 1833  ls
+ 1834  clear
+ 1835  ls
+ 1836  mv Ansible-Tasks.xlsx ./backup/
+ 1837  ls
+ 1838  rm memory.png 
+ 1839  clear
+ 1840  ls
+ 1841  gvim del.txt 
+ 1842  rm del.txt 
+ 1843  cd anaconda3/
+ 1844  ls
+ 1845  cd bin/
+ 1846  ls
+ 1847  ./anaconda-navigator 
+ 1848  cd DataAnalysis/
+ 1849  ls
+ 1850  cd pod18-node4/
+ 1851  ls
+ 1852  clear
+ 1853  ls
+ 1854  cd cpu-
+ 1855  cd cpu-0/
+ 1856  ls
+ 1857  sudo apt-get remove firefox
+ 1858  sudo apt-get purge firefox
+ 1859  sudo apt-get install firefox
+ 1860  firefox
+ 1861  sudo apt-get purge firefox
+ 1862  sudo apt-get autoremove 
+ 1863  ls
+ 1864  cd ..
+ 1865  ls
+ 1866  cd memory/
+ 1867  ls
+ 1868  cd ../
+ 1869  ls
+ 1870  cd interface-eno1/
+ 1871  ls
+ 1872  clear
+ 1873  ls
+ 1874  cd ../
+ 1875  ls
+ 1876  ls -la | more
+ 1877  cd disk-sda/
+ 1878  ls
+ 1879  gvim disk_ops-2022-06-19 
+ 1880  gvim disk_io_time-2022-06-19 
+ 1881  cd ../
+ 1882  ls
+ 1883  cd memory/
+ 1884  ls
+ 1885  gvim memory-used-2022-06-19 
+ 1886  cd ../
+ 1887  ls
+ 1888  cd irq/
+ 1889  ls
+ 1890  cd ../
+ 1891  ls
+ 1892  cd load/
+ 1893  ls
+ 1894  gvim load-2022-06-19 
+ 1895  cd
+ 1896  cd anaconda3/bin/
+ 1897  ./anaconda-navigator 
+ 1898  exit
+ 1899  git clone https://gerrit.opnfv.org/gerrit/releng-testresults
+ 1900  cd releng-testresults/
+ 1901  ls
+ 1902  cd testapi/
+ 1903  ls
+ 1904  source ~/mlenv/bin/activate
+ 1905  cd docs/
+ 1906  ls
+ 1907  cd developer/
+ 1908  ls
+ 1909  cd ../
+ 1910  ls
+ 1911  gvim index.rst 
+ 1912  cd internship/
+ 1913  ls
+ 1914  cd ../
+ 1915  cd internship/
+ 1916  ls
+ 1917  gvim webportal.rst 
+ 1918  cd ../
+ 1919  ls
+ 1920  cd developer/
+ 1921  ls
+ 1922  cd devguide/
+ 1923  ls
+ 1924  cd ../
+ 1925  ls
+ 1926  cd docker/
+ 1927  ls
+ 1928  gvim prepare-env.sh 
+ 1929  gvim Dockerfile 
+ 1930  gvim start-server.sh 
+ 1931  gvim prepare-env.sh 
+ 1932  docker build -t testapi .
+ 1933  docker run -it testapi /bin/bash
+ 1934  exit
+ 1935  ls -la
+ 1936  ifconfig
+ 1937  ls
+ 1938  cd releng-testresults/
+ 1939  ls
+ 1940  cd testapi/
+ 1941  ls
+ 1942  grep -r "Database backed website
+ 1943  grep -r "Database backed website" * 
+ 1944  cd opnfv_testapi/ui/components/home/
+ 1945  ls
+ 1946  cd ../
+ 1947  ls
+ 1948  cd pods/
+ 1949  ls
+ 1950  cd ../
+ 1951  ls
+ 1952  grep -r 'Sign In' *
+ 1953  ls
+ 1954  cd shared/
+ 1955  ls
+ 1956  cd header/
+ 1957  ls
+ 1958  cd ../
+ 1959  ls
+ 1960  cd ../
+ 1961  ls
+ 1962  cd components/home/
+ 1963  gvim home.html 
+ 1964  ls
+ 1965  cd ../
+ 1966  ls
+ 1967  cd ../
+ 1968  ls
+ 1969  cd ../
+ 1970  ls
+ 1971  find . -name assets
+ 1972  cd 3rd_party/static/
+ 1973  ls
+ 1974  cd testapi-ui/
+ 1975  ls
+ 1976  cd assets/
+ 1977  ls
+ 1978  cd img/
+ 1979  ls
+ 1980  clear
+ 1981  ls
+ 1982  cd ../
+ 1983  cd ..
+ 1984  cd ../
+ 1985  ls
+ 1986  cd doc
+ 1987  cd docs
+ 1988  ls
+ 1989  cd developer/
+ 1990  ls
+ 1991  cd devguide/
+ 1992  ls
+ 1993  gvim overview.rst 
+ 1994  gvim framework.rst 
+ 1995  cd
+ 1996  cd anaconda3/bin/
+ 1997  ./anaconda-navigator 
+ 1998  exit
+ 1999  ifconfig
+ 2000  ls
+ 2001  cd releng-testresults/
+ 2002  ls
+ 2003  2to3 -W testapi/
+ 2004  cd testapi/
+ 2005  ls
+ 2006  gvim setup.py
+ 2007  source ~/mlenv/bin/activate
+ 2008  python3 setup.py install
+ 2009  sudo ~/mlenv/bin/python3 setup.py install
+ 2010  cd ~/mlenv/
+ 2011  ls
+ 2012  cd bin/
+ 2013  ls
+ 2014  cd ../
+ 2015  find . -name opnfv-testapi
+ 2016  cd ..
+ 2017  cd releng-testresults/testapi/
+ 2018  ls
+ 2019  cd build/
+ 2020  ls
+ 2021  cd lib/
+ 2022  ls
+ 2023  cd opnfv_testapi/
+ 2024  ls
+ 2025  cd cmd/
+ 2026  ls
+ 2027  cd ../
+ 2028  ls
+ 2029  cd ../
+ 2030  cd ..
+ 2031  cd ../
+ 2032  grep -r "running install_scripts" *
+ 2033  grep -r "install_scripts" *
+ 2034  ls
+ 2035  gvim setup.py
+ 2036  gvim setup.cfg 
+ 2037  cd opnfv_testapi
+ 2038  ls
+ 2039  gvim __init__.py
+ 2040  cd ../
+ 2041  grep -r "win" * 
+ 2042  grep -r "winin" * 
+ 2043  grep -r "windows" * 
+ 2044  cd 3rd_party/
+ 2045  ls
+ 2046  cd static/
+ 2047  ls
+ 2048  cd testapi-ui/
+ 2049  ls
+ 2050  cd assets/
+ 2051  ls
+ 2052  cd lib/
+ 2053  ls
+ 2054  cd ../
+ 2055  cd ..
+ 2056  cd testapi/
+ 2057  ls
+ 2058  grep -r "distu" * 
+ 2059  grep -r "dist" * 
+ 2060  gvim setup.cfg 
+ 2061  ls
+ 2062  grep -r "bdist" * 
+ 2063  cd 3rd_party/static/testapi-ui/assets/lib/bootstrap/dist/
+ 2064  ls
+ 2065  cd ../
+ 2066  ls
+ 2067  gvim package.json 
+ 2068  cd ../
+ 2069  find . -name install*
+ 2070  gvim setup.py
+ 2071  gvim setup.cfg 
+ 2072  sudo ~/mlenv/bin/python3 setup.py install
+ 2073  deactivate 
+ 2074  python3 --version
+ 2075  cd ~/mlenv/lib/python3.10/site-packages/setuptools
+ 2076  ls
+ 2077  grep -r "bdist" * 
+ 2078  grep -r "bdist_wininst" * 
+ 2079  cd 
+ 2080  cd releng-testresults/testapi/
+ 2081  sudo python3 setup.py install
+ 2082  opnfv-testapi 
+ 2083  pip3 install tornado
+ 2084  pip3 install tornado=4.3
+ 2085  pip3 install tornado==4.3
+ 2086  grep -r epydoc
+ 2087  gvim upper-constraints.txt 
+ 2088  ls
+ 2089  pip3 install -r requirements.txt -c upper-constraints.txt 
+ 2090  opnfv-testapi 
+ 2091  vi ~/.local/lib/python3.10/site-packages/tornado/httputil.py 
+ 2092  opnfv-testapi 
+ 2093  vi ~/.local/lib/python3.10/site-packages/epydoc/markup/__init__.py 
+ 2094  cd
+ 2095  git clone https://github.com/opensource-tnbt/releng-testresults denttestapi
+ 2096  cd denttestapi/
+ 2097  ls
+ 2098  git remote show
+ 2099  cp ~/releng-testresults/testapi/3rd_party/static/testapi-ui/assets/img/opnfv-logo.png ./testapi/3rd_party/static/testapi-ui/assets/img/
+ 2100  git status
+ 2101  git add .
+ 2102  git commit -m "Modify logo"
+ 2103  git push -u origin main
+ 2104  git push -u origin
+ 2105  gvim remove -v
+ 2106  git remot e-v
+ 2107  git remote -v
+ 2108  git remote set-url origin git@github.com:opensource-tnbt/releng-testresults
+ 2109  git push -u origin
+ 2110  cd
+ 2111  cd releng-testresults/
+ 2112  ls
+ 2113  cd testapi/
+ 2114  ls
+ 2115  cd docker/
+ 2116  ls
+ 2117  gvim Dockerfile 
+ 2118  history &> temp.txt
